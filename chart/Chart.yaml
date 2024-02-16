@@ -1,0 +1,10 @@
+apiVersion: v2
+name: frontend-provider
+description: Krateo PlatformOps Frontend Provider
+type: application
+icon: "https://github.com/projectkerberus/kerberus-dashboard/blob/main/docs/media/square_black_logo.png"
+
+version: CHART_VERSION
+appVersion: APP_VERSION
+
+

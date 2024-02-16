@@ -1,0 +1,6 @@
+
+podEnv:
+  - name: FRONTEND_PROVIDER_DEBUG
+    value: "true"
+  - name: FRONTEND_POLL_INTERVAL
+    value: "5m"
