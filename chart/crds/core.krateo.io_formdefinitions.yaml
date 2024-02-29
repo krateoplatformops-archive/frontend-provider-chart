@@ -68,9 +68,6 @@ spec:
               schema:
                 description: 'Schema: the schema info'
                 properties:
-                  group:
-                    description: 'Group: collection of kinds.'
-                    type: string
                   kind:
                     description: 'Kind: the name of the object you are trying to generate'
                     type: string
@@ -82,10 +79,8 @@ spec:
                       versions.'
                     type: string
                 required:
-                - group
                 - kind
                 - url
-                - version
                 type: object
             required:
             - schema
